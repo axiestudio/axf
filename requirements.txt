@@ -1,0 +1,36 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+pydantic
+sqlmodel
+langchain
+langchain-core
+langchain-community
+
+# AI/ML Model Providers
+langchain-openai
+langchain-anthropic
+langchain-groq
+langchain-google-genai
+langchain-google-community
+langchain-nvidia-ai-endpoints
+langchain-sambanova
+
+# Vector Databases
+langchain-astradb
+langchain-chroma
+astrapy
+cassio
+
+# Google Services
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+google-cloud-bigquery
+
+# Additional utilities
+requests
+httpx
+python-multipart
+python-dotenv
